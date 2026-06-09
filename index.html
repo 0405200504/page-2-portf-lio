@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lash Lifting & Brow Lamination — [NOME DA PROFISSIONAL] | Lume</title>
+  <meta name="description" content="Especialista em lash lifting e brow lamination. Realce o seu olhar com procedimentos seguros, elegantes e resultados naturais. Agende seu horário.">
+  <meta name="keywords" content="lash lifting, brow lamination, sobrancelha, cílios, beleza natural, design de sobrancelha">
+  <meta name="author" content="Lume">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Lash Lifting & Brow Lamination — [NOME DA PROFISSIONAL]">
+  <meta property="og:description" content="Realce o seu olhar com procedimentos seguros, elegantes e resultados naturais.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="profissional/36a72f0154e3f20ac950cf717737893e.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="nav scrolled" id="mainNav" aria-label="Navegação principal">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" id="navLogo">Lume</a>
+      <ul class="nav__links" role="list">
+        <li><a href="#procedimentos" class="nav__link" id="navProcedimentos">Procedimentos</a></li>
+        <li><a href="#resultados" class="nav__link" id="navResultados">Resultados</a></li>
+        <li><a href="#servicos" class="nav__link" id="navServicos">Serviços</a></li>
+        <li><a href="#depoimentos" class="nav__link" id="navDepoimentos">Depoimentos</a></li>
+        <li><a href="#agendar" class="nav__cta" id="navAgendar">Agendar</a></li>
+      </ul>
+      <button class="nav__hamburger" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ====== MOBILE MENU ====== -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Menu de navegação">
+    <button class="mobile-menu__close" id="menuClose" aria-label="Fechar menu">
+      <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <a href="#procedimentos" class="mobile-menu__link">Procedimentos</a>
+    <a href="#resultados" class="mobile-menu__link">Resultados</a>
+    <a href="#servicos" class="mobile-menu__link">Serviços</a>
+    <a href="#depoimentos" class="mobile-menu__link">Depoimentos</a>
+    <a href="#agendar" class="mobile-menu__link" style="font-size:1.2rem; letter-spacing:0.15em; text-transform:uppercase; font-family:var(--font-sans); color:var(--gold);">Agendar Horário</a>
+  </div>
+
+  <!-- ====== SECTION 1 — HERO (Split layout) ====== -->
+  <section class="hero" id="hero">
+    <div class="hero__content">
+      <span class="hero__label">Lash Lifting · Brow Lamination</span>
+      <h1 class="hero__headline">Realce o seu olhar<br>sem perder a sua <em>naturalidade.</em></h1>
+      <p class="hero__subtitle">Lash lifting e brow lamination para quem busca beleza leve, prática e sofisticada todos os dias.</p>
+      <div class="hero__buttons">
+        <a href="#agendar" class="btn btn--primary" id="heroAgendar">Agendar horário</a>
+        <a href="#procedimentos" class="btn btn--outline-dark" id="heroConhecer">Conhecer procedimentos</a>
+      </div>
+    </div>
+    <div class="hero__image">
+      <img src="profissional/36a72f0154e3f20ac950cf717737893e.jpg" alt="[NOME DA PROFISSIONAL] — Especialista em lash lifting e brow lamination" loading="eager">
+    </div>
+    <div class="hero__scroll">
+      <span>Role para descobrir</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 2 — MANIFESTO ====== -->
+  <section class="manifesto" id="manifesto">
+    <div class="container container--narrow">
+      <p class="manifesto__text reveal">
+        Beleza natural não é sobre mudar quem você é. É sobre destacar o que já existe em você.
+      </p>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 3 — PROCEDIMENTOS (com foto da profissional) ====== -->
+  <section class="procedures" id="procedimentos">
+    <div class="container">
+
+      <!-- Intro com foto da profissional -->
+      <div class="procedures__intro">
+        <div class="procedures__intro-image reveal-left">
+          <img src="profissional/e9ca53dd3b8e5e7015acc458b3cc4dbc.webp" alt="[NOME DA PROFISSIONAL] em seu espaço de atendimento" loading="lazy">
+        </div>
+        <div class="procedures__intro-text reveal-right">
+          <span class="procedures__intro-label">Conheça os procedimentos</span>
+          <h2 class="procedures__intro-title">Dois procedimentos, duas experiências.</h2>
+          <p class="procedures__intro-desc">Cada procedimento é pensado para realçar a beleza que já é sua. Sem exageros, sem artificialidade — apenas o cuidado certo para o resultado que você merece.</p>
+        </div>
+      </div>
+
+      <!-- Cards dos procedimentos -->
+      <div class="procedures__grid">
+
+        <!-- Lash Lifting -->
+        <div class="procedure-card reveal-left">
+          <div class="procedure-card__image">
+            <img src="images/lash-lifting.png" alt="Close nos cílios curvados com efeito de lash lifting natural" loading="lazy">
+          </div>
+          <span class="procedure-card__tag">Lash Lifting</span>
+          <h3 class="procedure-card__title">Cílios curvados, leves e naturais.</h3>
+          <p class="procedure-card__desc">O lash lifting valoriza os cílios naturais, criando um efeito de curvatura e abertura no olhar sem necessidade de extensão.</p>
+          <ul class="procedure-card__benefits" role="list">
+            <li class="procedure-card__benefit">Mais praticidade na rotina</li>
+            <li class="procedure-card__benefit">Olhar mais aberto</li>
+            <li class="procedure-card__benefit">Resultado natural</li>
+            <li class="procedure-card__benefit">Sem efeito artificial</li>
+          </ul>
+        </div>
+
+        <!-- Brow Lamination -->
+        <div class="procedure-card reveal-right">
+          <div class="procedure-card__image">
+            <img src="images/brow-lamination.png" alt="Sobrancelhas alinhadas e preenchidas com brow lamination" loading="lazy">
+          </div>
+          <span class="procedure-card__tag">Brow Lamination</span>
+          <h3 class="procedure-card__title">Sobrancelhas alinhadas com efeito sofisticado.</h3>
+          <p class="procedure-card__desc">O brow lamination organiza os fios, melhora o desenho das sobrancelhas e traz mais presença para o rosto.</p>
+          <ul class="procedure-card__benefits" role="list">
+            <li class="procedure-card__benefit">Fios mais alinhados</li>
+            <li class="procedure-card__benefit">Expressão mais elegante</li>
+            <li class="procedure-card__benefit">Aparência preenchida</li>
+            <li class="procedure-card__benefit">Resultado moderno</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 4 — ANTES / DEPOIS ====== -->
+  <section class="before-after" id="resultados">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Resultados reais</span>
+        <h2 class="section-title">Antes: olhar apagado.<br>Depois: expressão valorizada.</h2>
+      </div>
+
+      <div class="ba-grid">
+        <div class="ba-card reveal-scale" style="transition-delay: 0.1s">
+          <div class="ba-card__image">
+            <img src="images/before-after-lash.png" alt="Antes e depois de lash lifting" loading="lazy">
+          </div>
+          <div class="ba-card__label">
+            <span>Antes</span>
+            <span>Depois</span>
+          </div>
+          <div class="ba-card__info">
+            <span class="ba-card__name">Lash Lifting</span>
+          </div>
+        </div>
+
+        <div class="ba-card reveal-scale" style="transition-delay: 0.25s">
+          <div class="ba-card__image">
+            <img src="images/before-after-brow.png" alt="Antes e depois de brow lamination" loading="lazy">
+          </div>
+          <div class="ba-card__label">
+            <span>Antes</span>
+            <span>Depois</span>
+          </div>
+          <div class="ba-card__info">
+            <span class="ba-card__name">Brow Lamination</span>
+          </div>
+        </div>
+
+        <div class="ba-card reveal-scale" style="transition-delay: 0.4s">
+          <div class="ba-card__image">
+            <img src="images/before-after-combo.png" alt="Antes e depois do combo lash lifting com brow lamination" loading="lazy">
+          </div>
+          <div class="ba-card__label">
+            <span>Antes</span>
+            <span>Depois</span>
+          </div>
+          <div class="ba-card__info">
+            <span class="ba-card__name">Combo Lash + Brow</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="ba-disclaimer reveal">Os resultados podem variar conforme os fios naturais de cada cliente.</p>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 5 — MENU DE SERVIÇOS ====== -->
+  <section class="services" id="servicos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Menu de serviços</span>
+        <h2 class="section-title">Escolha o seu procedimento</h2>
+      </div>
+
+      <div class="services-list">
+        <div class="service-item reveal" style="transition-delay: 0.05s">
+          <div class="service-item__info">
+            <h3 class="service-item__name">Lash Lifting</h3>
+            <p class="service-item__desc">Curvatura e definição dos cílios naturais com duração de até 6 semanas.</p>
+          </div>
+          <div class="service-item__meta">
+            <span class="service-item__duration">≈ 50 min</span>
+            <span class="service-item__price">R$ 180</span>
+          </div>
+          <div class="service-item__action">
+            <a href="#agendar" class="btn" id="agendarLash">Agendar</a>
+          </div>
+        </div>
+
+        <div class="service-item reveal" style="transition-delay: 0.1s">
+          <div class="service-item__info">
+            <h3 class="service-item__name">Brow Lamination</h3>
+            <p class="service-item__desc">Alinhamento e modelagem dos fios para sobrancelhas mais definidas e modernas.</p>
+          </div>
+          <div class="service-item__meta">
+            <span class="service-item__duration">≈ 45 min</span>
+            <span class="service-item__price">R$ 160</span>
+          </div>
+          <div class="service-item__action">
+            <a href="#agendar" class="btn" id="agendarBrow">Agendar</a>
+          </div>
+        </div>
+
+        <div class="service-item reveal" style="transition-delay: 0.15s">
+          <div class="service-item__info">
+            <h3 class="service-item__name">Combo Lash + Brow</h3>
+            <p class="service-item__desc">Pacote completo com lash lifting e brow lamination no mesmo atendimento.</p>
+          </div>
+          <div class="service-item__meta">
+            <span class="service-item__duration">≈ 1h30</span>
+            <span class="service-item__price">R$ 290</span>
+          </div>
+          <div class="service-item__action">
+            <a href="#agendar" class="btn" id="agendarCombo">Agendar</a>
+          </div>
+        </div>
+
+        <div class="service-item reveal" style="transition-delay: 0.2s">
+          <div class="service-item__info">
+            <h3 class="service-item__name">Design de Sobrancelhas</h3>
+            <p class="service-item__desc">Modelagem personalizada com técnica de simetria facial e harmonia do rosto.</p>
+          </div>
+          <div class="service-item__meta">
+            <span class="service-item__duration">≈ 30 min</span>
+            <span class="service-item__price">R$ 80</span>
+          </div>
+          <div class="service-item__action">
+            <a href="#agendar" class="btn" id="agendarDesign">Agendar</a>
+          </div>
+        </div>
+
+        <div class="service-item reveal" style="transition-delay: 0.25s">
+          <div class="service-item__info">
+            <h3 class="service-item__name">Tintura de Cílios</h3>
+            <p class="service-item__desc">Pigmentação suave dos cílios para dar mais presença e profundidade ao olhar.</p>
+          </div>
+          <div class="service-item__meta">
+            <span class="service-item__duration">≈ 20 min</span>
+            <span class="service-item__price">R$ 60</span>
+          </div>
+          <div class="service-item__action">
+            <a href="#agendar" class="btn" id="agendarTintura">Agendar</a>
+          </div>
+        </div>
+
+        <div class="service-item reveal" style="transition-delay: 0.3s">
+          <div class="service-item__info">
+            <h3 class="service-item__name">Manutenção</h3>
+            <p class="service-item__desc">Retoque e ajuste do procedimento anterior para manter o resultado impecável.</p>
+          </div>
+          <div class="service-item__meta">
+            <span class="service-item__duration">≈ 30 min</span>
+            <span class="service-item__price">R$ 100</span>
+          </div>
+          <div class="service-item__action">
+            <a href="#agendar" class="btn" id="agendarManutencao">Agendar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 6 — SEGURANÇA (com foto da profissional) ====== -->
+  <section class="safety" id="seguranca">
+    <div class="container">
+      <div class="safety__layout">
+        <div class="safety__image reveal-left">
+          <img src="profissional/61c70186340fc535872efb4e2d1278e0.webp" alt="[NOME DA PROFISSIONAL] — cuidado e atenção aos detalhes" loading="lazy">
+        </div>
+        <div class="safety__content reveal-right">
+          <span class="section-label">Compromisso com você</span>
+          <h2 class="section-title">Procedimentos delicados pedem cuidado profissional.</h2>
+
+          <div class="safety__items">
+            <div class="safety-item">
+              <div class="safety-item__icon">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4m0 4h.01"/></svg>
+              </div>
+              <div class="safety-item__text">
+                <h3>Avaliação antes do procedimento</h3>
+                <p>Análise individual dos fios e do tipo de pele antes de qualquer aplicação.</p>
+              </div>
+            </div>
+
+            <div class="safety-item">
+              <div class="safety-item__icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <div class="safety-item__text">
+                <h3>Produtos adequados</h3>
+                <p>Uso de produtos profissionais de alta qualidade, testados e aprovados.</p>
+              </div>
+            </div>
+
+            <div class="safety-item">
+              <div class="safety-item__icon">
+                <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="safety-item__text">
+                <h3>Técnica segura</h3>
+                <p>Profissional capacitada com técnicas atualizadas e procedimentos seguros.</p>
+              </div>
+            </div>
+
+            <div class="safety-item">
+              <div class="safety-item__icon">
+                <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              </div>
+              <div class="safety-item__text">
+                <h3>Orientação pós-atendimento</h3>
+                <p>Cuidados detalhados para você manter o resultado por mais tempo.</p>
+              </div>
+            </div>
+
+            <div class="safety-item">
+              <div class="safety-item__icon">
+                <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </div>
+              <div class="safety-item__text">
+                <h3>Resultado pensado para o seu rosto</h3>
+                <p>Cada procedimento é adaptado à sua anatomia facial e seus fios naturais.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 7 — DEPOIMENTOS ====== -->
+  <section class="testimonials" id="depoimentos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">O que dizem</span>
+        <h2 class="section-title">Quem experimentou, recomenda.</h2>
+      </div>
+
+      <div class="testimonials__grid">
+        <div class="testimonial reveal" style="transition-delay: 0.1s">
+          <div class="testimonial__quote">"</div>
+          <div class="testimonial__stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial__text">Ficou natural do jeito que eu queria. Parece que eu acordei mais arrumada.</p>
+          <span class="testimonial__author">Camila R.</span>
+        </div>
+
+        <div class="testimonial reveal" style="transition-delay: 0.2s">
+          <div class="testimonial__quote">"</div>
+          <div class="testimonial__stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial__text">Meu olhar mudou muito, mas sem ficar exagerado. Amei.</p>
+          <span class="testimonial__author">Fernanda M.</span>
+        </div>
+
+        <div class="testimonial reveal" style="transition-delay: 0.3s">
+          <div class="testimonial__quote">"</div>
+          <div class="testimonial__stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial__text">Além do resultado, achei muito fácil conseguir agendar.</p>
+          <span class="testimonial__author">Juliana S.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 8 — CTA FINAL (Clean, sem imagem de fundo) ====== -->
+  <section class="cta-final" id="agendar">
+    <div class="cta-final__inner reveal">
+      <div class="cta-final__line"></div>
+      <span class="cta-final__label">Agende agora</span>
+      <h2 class="cta-final__headline">Seu olhar pode ficar mais leve, marcante e natural.</h2>
+      <p class="cta-final__subtitle">Agende seu horário e descubra o procedimento ideal para você.</p>
+      <a href="#" class="btn btn--gold" id="ctaAgendar">Agendar meu procedimento</a>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__logo">Lume</div>
+      <nav class="footer__links" aria-label="Links do rodapé">
+        <a href="#procedimentos" class="footer__link">Procedimentos</a>
+        <a href="#resultados" class="footer__link">Resultados</a>
+        <a href="#servicos" class="footer__link">Serviços</a>
+        <a href="#depoimentos" class="footer__link">Depoimentos</a>
+        <a href="#agendar" class="footer__link">Agendar</a>
+      </nav>
+      <p class="footer__copy">&copy; 2025 [NOME DA PROFISSIONAL]. Todos os direitos reservados.</p>
+      <p class="footer__powered">Desenvolvido com <a href="#">Lume</a></p>
+    </div>
+  </footer>
+
+  <!-- ====== FIXED MOBILE CTA ====== -->
+  <div class="mobile-cta" id="mobileCta">
+    <a href="#agendar" class="btn btn--primary" id="mobileCtaBtn">Agendar meu horário</a>
+  </div>
+
+  <!-- ====== JAVASCRIPT ====== -->
+  <script src="script.js"></script>
+</body>
+</html>
